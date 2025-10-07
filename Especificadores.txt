@@ -1,0 +1,16 @@
+| Especificador | Tipo de dado                              | Exemplo de uso              | Exemplo de saída |
+| ------------- | ----------------------------------------- | --------------------------- | ---------------- |
+| `%d`          | inteiro decimal (int)                     | `printf("%d", 10);`         | `10`             |
+| `%i`          | inteiro (igual a `%d`)                    | `printf("%i", 10);`         | `10`             |
+| `%u`          | inteiro sem sinal (unsigned int)          | `printf("%u", 3000000000);` | `3000000000`     |
+| `%f`          | ponto flutuante (float/double)            | `printf("%f", 3.14);`       | `3.140000`       |
+| `%.2f`        | ponto flutuante com 2 casas decimais      | `printf("%.2f", 3.14159);`  | `3.14`           |
+| `%e`          | notação científica (float/double)         | `printf("%e", 1234.5);`     | `1.234500e+03`   |
+| `%g`          | escolhe entre `%f` e `%e` automaticamente | `printf("%g", 1234.5);`     | `1234.5`         |
+| `%c`          | caractere (char)                          | `printf("%c", 'A');`        | `A`              |
+| `%s`          | string (char array)                       | `printf("%s", "Olá");`      | `Olá`            |
+| `%p`          | ponteiro (endereço de memória)            | `printf("%p", ptr);`        | `0x7ffee4a8`     |
+| `%x`          | inteiro em hexadecimal (minúsculas)       | `printf("%x", 255);`        | `ff`             |
+| `%X`          | inteiro em hexadecimal (maiúsculas)       | `printf("%X", 255);`        | `FF`             |
+| `%o`          | inteiro em octal                          | `printf("%o", 10);`         | `12`             |
+| `%%`          | imprime o próprio símbolo `%`             | `printf("100%%");`          | `100%`           |
